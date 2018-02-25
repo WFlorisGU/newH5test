@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages. This is my first one to test the work about "JavaScript"
 
 You can use the [editor on GitHub](https://github.com/WFlorisGU/newH5/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
