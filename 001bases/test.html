@@ -11,6 +11,17 @@
         html{
             height: 100%;
         }
+        /*关键帧设置*/
+        @keyframes myfirst {
+            /*from{background:red;}
+            to{bckground:black;}
+            */
+            from{opacity: 0}
+            to{opacity: 100%}
+        }
+        h2,p{
+            animation: myfirst 3s infinite;
+        }
     </style>
 </head>
 <body>
