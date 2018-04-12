@@ -1,0 +1,134 @@
+Index: .idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.name	(date 1523374922678)
++++ .idea/.name	(date 1523374922678)
+@@ -0,0 +1,1 @@
++newH5test
+\ No newline at end of file
+Index: 001bases/biaobai.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 001bases/biaobai.html	(date 1523540877248)
++++ 001bases/biaobai.html	(date 1523540877248)
+@@ -0,0 +1,72 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>表个白</title>
++    <style>
++    body{
++    background-image: url("images/0.jpg");//只能打一个.
++    background-size: 100% 100%;
++    }
++    html{
++    height: 100%;
++    }
++    @keyframes mya {
++        0%{opacity: 0}
++        25%{opacity: 0}
++        50%{opacity: 100%}
++        75%{opacity: 0}
++        100%{opacity: 0}
++    }
++    @keyframes myb {
++        0%{opacity: 0}
++        25%{opacity: 0}
++        50%{opacity: 0}
++        75%{opacity: 100%}
++        100%{opacity: 0%}
++    }
++    @keyframes myc {
++        0%{opacity: 0}
++        25%{opacity: 0}
++        50%{opacity: 0%}
++        75%{opacity: 0}
++        100%{opacity: 0}
++    }
++    @keyframes myd {
++        0%{opacity:0 }
++        25%{opacity: 0}
++        50%{opacity: 0}
++        75%{opacity: 100%}
++        100%{opacity: 0}
++    }
++    p{
++        font-size: 80px;
++        position: absolute;
++        text-align: center;
++        height: 100%;
++        width: 100%;
++    }
++     #a{
++         animation: mya 3s infinite;
++
++        }
++    #b{
++        animation: myb 3s infinite;
++        animation-delay: 3s;
++    }
++    #c{
++        animation: myc 3s infinite;
++    }
++    #d{
++        animation: myd 3s infinite;
++    }
++    </style>
++</head>
++<body>
++    <audio src="wav/羽根.mp3" autoplay="autoplay" ></audio>
++    <p id="a">哈哈哈跟着老师，来表个白哈哈哈哈</p>
++    <p id="b">自己没有录制音频</p>
++    <!--<p id="c"> 就暂且这样吧</p>
++    <p id="d">想学audition啦</p>-->
++</body>
++</html>
+\ No newline at end of file
+Index: 001bases/onmove.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 001bases/onmove.html	(date 1523504968070)
++++ 001bases/onmove.html	(date 1523504968070)
+@@ -0,0 +1,34 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>动起来</title>
++    <style>
++        @keyframes onmove {
++            0%{background-color: chartreuse;top:200px;
++                left: 50px;}
++            25%{background-color: darkblue;top: 50px;left:100px}
++            50%{background-color: deeppink;top:100px;left:300px}
++            100%{background-color: darkorange;top:451px;left: 90px}
++        }
++        #a{
++            animation: onmovea 3s infinite;
++            position:relative;//只有相对定位的时候才可以使用left和top
++            height:100px;
++            width: 100px;
++            background-color: black;
++        }
++        #b{
++            animation: onmoveb 3s infinite;
++            position:relative;//只有相对定位的时候才可以使用left和top
++        height:100px;
++            width: 100px;
++            background-color: black;
++        }
++    </style>
++</head>
++<body>
++    <div id="a"></div>
++    <div id="b"></div>
++</body>
++</html>
+\ No newline at end of file
