@@ -11,6 +11,19 @@ page{
     padding-top:25%;
     padding-left: 25%;
 }
+#z{
+    animation: z 14s infinite;
+    font-size: 35px;
+    text-align: center;
+}
+@keyframes z {/*变化的点两端一定要规定好*/
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    70%{opacity: 0;}
+    85%{opacity: 100;}
+    90%{opacity: 0;}
+    100%{opacity: 0;}
+}
 @keyframes c {/*变化的点两端一定要规定好*/
     0%{opacity: 0;}
     20%{opacity: 100;}
@@ -39,19 +52,27 @@ page{
     100%{opacity: 0}
 }
 #c{
-    animation: c 10s infinite;
+    background-image: url("../images/c.jpg");
+    background-size: 100% 100%;
+    animation: c 14s infinite;
     background-color: chartreuse;
 }
 #x{
-    animation: xi 10s infinite;
+    background-size: 100% 100%;
+    background-image: url("../images/x.jpg");
+    animation: xi 14s infinite;
     background-color: crimson;
 }
 #q{
-    animation: q 10s infinite;
+    background-size: 100% 100%;
+    background-image: url("../images/q.jpg");
+    animation: q 14s infinite;
     background-color: darkorange;
 }
 #d{
-    animation: d 10s infinite;
+    background-size: 100% 100%;
+    background-image: url("../images/d.jpg");
+    animation: d 14s infinite;
     background-color: black;
     color: aliceblue;
 }
